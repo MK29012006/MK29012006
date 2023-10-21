@@ -1,0 +1,200 @@
+*{
+padding:0px;
+margin:0px;
+box-sizing:border-box;
+}
+body
+{
+background-image:url('bg.webp');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:100% 100%;
+font-family:Calibri;
+color:red;
+}
+.TOTAL
+{
+margin-left:-40px;
+margin-top:7px;
+}
+.menu-bar
+{
+background-color:black;
+text-align:center;
+}
+.menu-bar ul
+{
+display:inline-flex;
+list-style:none;
+}
+.menu-bar ul li
+{
+width:130px;
+margin-right:5px;
+margin-top:10px;
+margin-bottom:10px;
+margin-left:10px;
+padding:10px;
+}
+.menu-bar ul li a
+{
+text-decoration:none;
+color:white;
+}
+.active
+{
+background-color:red;
+border-radius:15px;
+}
+ .menu-bar ul li:hover 
+{
+background-color:#f22929;
+border-radius:15px;
+border:red;
+}
+.menu-bar i
+{
+margin-right:5px;
+}
+.active , .menu-bar ul li a:hover
+{
+color:black;
+}
+.sub-menu-1
+{
+           display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+           display:block;
+           position:absolute;
+           background-color:white;
+           margin-top:15px;
+           margin-left:-160px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+           display:block;
+           margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+          width:100px;
+          padding:2px;
+          border-bottom:1px ;
+          border-radius:6px;
+          text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul h3
+{
+          text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+         border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a
+{
+          color:black;         
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+          margin:0px 8px;
+}
+.menu-bar ul li:hover .sub-menu-1 h3
+{
+           color:red;
+           padding:0px;
+}
+#sub-menu-col
+{
+            width:25%;
+            padding:10px 10px;
+}
+#sub-menu-col h3
+{
+           font-size:15px;
+           margin-bottom:0px;
+           margin-right:10px;
+}
+#row
+{
+            display:flex;
+            flex-wrap:wrap;
+}
+.fa-angle-right
+{
+         float:right;
+}
+footer
+{
+background-color:black;
+padding:25px;
+}
+h3
+{
+color:red;
+margin:0px 11px;
+}
+h4
+{
+color:white;
+padding:15px;
+}
+.h4
+{
+color:red;
+}
+.container{
+            max-width:1170px;
+            margin:auto;
+}
+.container div ul li a
+{
+text-decoration:none;
+color:white;
+}
+.container div ul li a:hover
+{
+text-decoration:none;
+color:red;
+padding:8px;
+}
+.row
+{
+            display:flex;
+            flex-wrap:wrap;
+}
+ul{
+            list-style:none;
+}
+.container div ul li i
+{
+            padding:10px;     
+}
+.container div h4
+{
+color:red;
+}
+.footer-col
+{
+            width:25%;
+            padding:0 15px;
+}
+.footer-col h4
+{
+           font-size:18px;
+            margin-bottom:20px;
+}
+.li
+{
+color:white;
+}
+#li{
+       padding:10px;
+}
+
+
+
+
+

@@ -1,0 +1,146 @@
+.div1
+{
+	color:white;
+	font-size:80px;
+	text-align:center;
+	margin-bottom:0px;
+}
+.p
+{
+	color:white;
+	font-size:20px;
+}
+.div2
+{
+	color:white;
+	border:10px groove red;
+	width:97%;
+	padding:5px;
+	margin:20px;
+}
+
+.div2 p
+{
+	color:white;
+	background-color:red;
+	font-size:30px;
+	font-weight:800;
+	text-align:center;
+	margin-top:0px;
+}
+
+.div3
+{
+	border:10px groove white;
+	width:97%;
+	padding:5px;
+	margin:20px;
+}
+
+.div3 p
+{
+	color:white;
+	font-size:80px;
+	font-weight:800;
+	text-align:center;
+	margin-top:0px;
+}
+.div3 h4
+{
+	text-align:center;
+	font-size:30px;
+	margin-top:0px;
+}
+.div3:hover
+{
+	background-image:url('1.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+.button1
+{
+	font-size:40px;
+	font-family:calibri;
+	font-weight:bold;
+	border-radius:12px;
+	width:100px;
+}
+
+.div3 button:hover
+{
+	background-color:red;
+}
+.div4
+{
+	border:10px groove white;
+	width:97%;
+	padding:5px;
+	margin:20px;
+}
+
+.div4 p
+{
+	color:white;
+	font-size:80px;
+	font-weight:800;
+	text-align:center;
+	margin-top:0px;
+}
+.div4 h4
+{
+	text-align:center;
+	font-size:30px;
+	margin-top:0px;
+}
+
+.div4:hover
+{
+	background-image:url('2.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.div4 button:hover
+{
+	background-color:red;
+}
+
+.div5
+{
+	border:10px groove white;
+	width:97%;
+	padding:5px;
+	margin:20px;
+}
+
+.div5 p
+{
+	color:white;
+	font-size:80px;
+	font-weight:800;
+	text-align:center;
+	margin-top:0px;
+}
+.div5 h4
+{
+	text-align:center;
+	font-size:30px;
+	margin-top:0px;
+}
+
+.div5:hover
+{
+	background-image:url('dumble.2.jpg');
+	backgroun-repeat:no-repeat;
+	background-size:100%;
+}
+
+
+.div5 button:hover
+{
+	background-color:red;
+}
+
+
+
+
